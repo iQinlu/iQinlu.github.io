@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>沁路</title>
   
-  <subtitle>iQi：Qinlu</subtitle>
+  <subtitle>iQi：Qinlu&#39;s Blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://iqinlu.github.io/"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>落叶信封</title>
-    <link href="http://iqinlu.github.io/2018/11/06/%E8%90%BD%E5%8F%B6%E4%BF%A1%E5%B0%81/"/>
-    <id>http://iqinlu.github.io/2018/11/06/落叶信封/</id>
+    <link href="http://iqinlu.github.io/2018/%E8%90%BD%E5%8F%B6%E4%BF%A1%E5%B0%81/"/>
+    <id>http://iqinlu.github.io/2018/落叶信封/</id>
     <published>2018-11-06T03:06:09.000Z</published>
     <updated>2019-07-28T02:57:51.061Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>为此情</title>
-    <link href="http://iqinlu.github.io/2015/04/01/%E4%B8%BA%E6%AD%A4%E6%83%85/"/>
-    <id>http://iqinlu.github.io/2015/04/01/为此情/</id>
+    <link href="http://iqinlu.github.io/2015/%E4%B8%BA%E6%AD%A4%E6%83%85/"/>
+    <id>http://iqinlu.github.io/2015/为此情/</id>
     <published>2015-03-31T23:09:08.000Z</published>
     <updated>2019-07-28T02:54:07.037Z</updated>
     
