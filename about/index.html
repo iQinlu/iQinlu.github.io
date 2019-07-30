@@ -349,11 +349,7 @@
           
 
   
-    <div class="comments" id="comments">
-      
-        <div id="gitment-container"></div>
-      
-    </div>
+    <div id="gitalk-container"></div>
 
   
 
@@ -698,46 +694,23 @@
 
 
 
-<!-- LOCAL: You can save these files to your site and update links -->
-    
-        
-		<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-		<script src="https://www.wenjunjiang.win/js/gitment.js"></script>
-    
-<!-- END LOCAL -->
-
-    
-      <style>
-        a.gitment-editor-footer-tip { display: none; }
-        .gitment-container.gitment-footer-container { display: none; }
-      </style>
-    
-
-    
-      <script type="text/javascript">
-      function renderGitment(){
-        var gitment = new Gitment({
-            id: window.location.pathname, 
-            owner: 'iQinlu',
-            repo: 'iQinlu.github.io',
-            
-            oauth: {
-            
-            
-                client_secret: '9dddabbdbe9b1305d92a9c03687b3c0d785edb07',
-            
-                client_id: '2cabeb9d30439cc0be2f'
-            }});
-        gitment.render('gitment-container');
-      }
-
-      
-      renderGitment();
-      
-      </script>
-    
 
 
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: '2cabeb9d30439cc0be2f',
+          clientSecret: '9dddabbdbe9b1305d92a9c03687b3c0d785edb07',
+          repo: 'iQinlu.github.io',
+          owner: 'iQinlu',
+          admin: ['iQinlu'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')           
+       </script>
 
 
 
